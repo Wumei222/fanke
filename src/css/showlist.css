@@ -1,0 +1,286 @@
+.showlistmain {
+  height: 1720px; }
+  .showlistmain .guide {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 40px;
+    color: #b4b4b4; }
+    .showlistmain .guide a {
+      color: #333333; }
+    .showlistmain .guide .findresult a {
+      color: #a00000; }
+  .showlistmain .selectarea {
+    height: 35px;
+    border: 1px solid #c7cacd;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 15px; }
+    .showlistmain .selectarea .cloth {
+      width: 66px;
+      border-right: 1px solid #c7cacd;
+      border-bottom: 1px dashed #c7cacd; }
+    .showlistmain .selectarea ul li {
+      float: left;
+      width: 80px; }
+      .showlistmain .selectarea ul li span {
+        color: #c7cacd; }
+  .showlistmain .allgoods {
+    height: 65px;
+    width: 1200px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px; }
+    .showlistmain .allgoods .all {
+      border-bottom: 2px solid #b81c22;
+      height: 30px; }
+      .showlistmain .allgoods .all a {
+        display: block;
+        width: 88px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #fff;
+        background: #b81c22; }
+    .showlistmain .allgoods .goodsnav .sortnav {
+      height: 34px;
+      box-sizing: border-box; }
+      .showlistmain .allgoods .goodsnav .sortnav li {
+        height: 34px;
+        width: 74px;
+        float: left; }
+        .showlistmain .allgoods .goodsnav .sortnav li a {
+          display: inline-block;
+          height: 34px;
+          width: 74px;
+          color: #656565;
+          line-height: 34px;
+          border: 1px solid #ccc;
+          border-right: none;
+          text-align: center;
+          box-sizing: border-box; }
+          .showlistmain .allgoods .goodsnav .sortnav li a em {
+            display: inline-block;
+            height: 11px;
+            width: 11px;
+            line-height: 11px;
+            background: url(../img/indeximg/sprites.png) no-repeat 0px -3090px;
+            vertical-align: middle; }
+          .showlistmain .allgoods .goodsnav .sortnav li a .newesticon {
+            background: url(../img/indeximg/sprites.png) no-repeat -21px -3112px; }
+          .showlistmain .allgoods .goodsnav .sortnav li a .priceicon {
+            background: url(../img/indeximg/sprites.png) no-repeat 0px -3112px; }
+          .showlistmain .allgoods .goodsnav .sortnav li a .upicon {
+            background: url(../img/indeximg/sprites.png) no-repeat 0px -3130px; }
+      .showlistmain .allgoods .goodsnav .sortnav .sortprice {
+        background: #eee; }
+      .showlistmain .allgoods .goodsnav .sortnav .setprice {
+        width: 112px;
+        position: relative; }
+        .showlistmain .allgoods .goodsnav .sortnav .setprice input {
+          position: relative;
+          z-index: 100; }
+          .showlistmain .allgoods .goodsnav .sortnav .setprice input:focus {
+            border: 1px solid skyblue; }
+        .showlistmain .allgoods .goodsnav .sortnav .setprice span {
+          margin: 6px 2px;
+          float: left;
+          line-height: 19px;
+          color: #999;
+          font-size: 19px;
+          position: relative;
+          z-index: 100; }
+        .showlistmain .allgoods .goodsnav .sortnav .setprice .priceArea {
+          border: 1px solid #aeb1b4;
+          height: 17px;
+          line-height: 17px;
+          width: 35px;
+          float: left;
+          margin: 8px 0px 0px 6px; }
+        .showlistmain .allgoods .goodsnav .sortnav .setprice .mohu {
+          height: 63px;
+          position: absolute;
+          width: 100px;
+          border: 1px solid #aeb1b4;
+          background: #fff;
+          display: none; }
+          .showlistmain .allgoods .goodsnav .sortnav .setprice .mohu a {
+            width: 50px; }
+          .showlistmain .allgoods .goodsnav .sortnav .setprice .mohu span {
+            width: 45px;
+            height: 19px;
+            margin-top: 38px;
+            font-size: 12px;
+            color: #333;
+            padding-left: 10px;
+            box-sizing: border-box; }
+          .showlistmain .allgoods .goodsnav .sortnav .setprice .mohu span:nth-child(2) {
+            background: url(../img/indeximg/tabbgn6_ws.png) no-repeat 0px -58px; }
+    .showlistmain .allgoods .goodsnav .samegoods a {
+      display: block;
+      height: 34px;
+      border-left: 1px solid #ccc;
+      line-height: 34px;
+      background: #eee;
+      color: #999;
+      width: 88px;
+      text-align: center; }
+  .showlistmain .productwrapper .productlist li {
+    float: left;
+    margin: 0px 9px 20px 0px;
+    width: 231px;
+    position: relative; }
+    .showlistmain .productwrapper .productlist li .picture {
+      border: 1px solid #dbd7d6; }
+      .showlistmain .productwrapper .productlist li .picture img {
+        width: 228px;
+        height: 228px; }
+    .showlistmain .productwrapper .productlist li p {
+      height: 43px;
+      line-height: 43px;
+      width: 212px;
+      overflow: hidden; }
+      .showlistmain .productwrapper .productlist li p a {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 13px;
+        font-family: "Microsoft YaHei";
+        padding: 0px 5px 5px;
+        display: block;
+        height: 30px;
+        width: 212px;
+        color: #727171;
+        overflow: hidden; }
+    .showlistmain .productwrapper .productlist li .Mpricediv {
+      color: #b81c22;
+      font-weight: bold;
+      text-align: center;
+      display: inline-block;
+      width: 100%;
+      margin-top: 20px; }
+    .showlistmain .productwrapper .productlist li .goodsmessage {
+      display: none;
+      background: #e6eaf3;
+      width: 290px;
+      height: 426px;
+      border: 1px solid #000;
+      position: absolute;
+      top: -30px;
+      left: 242px;
+      text-align: center;
+      z-index: 11; }
+      .showlistmain .productwrapper .productlist li .goodsmessage .messageicon {
+        width: 11px;
+        height: 20px;
+        position: absolute;
+        top: 30px;
+        background: url(../img/indeximg/sprites.png) no-repeat 0 -931px;
+        left: -11px; }
+      .showlistmain .productwrapper .productlist li .goodsmessage .messagebox {
+        margin: 10px auto;
+        width: 272px; }
+        .showlistmain .productwrapper .productlist li .goodsmessage .messagebox .imgs {
+          width: 270px;
+          height: 268px;
+          border: 1px solid #fff; }
+          .showlistmain .productwrapper .productlist li .goodsmessage .messagebox .imgs img {
+            width: 270px;
+            height: 268px; }
+        .showlistmain .productwrapper .productlist li .goodsmessage .messagebox .goodstitle {
+          font-size: 14px;
+          color: #333333;
+          font-weight: bold;
+          margin-top: 20px;
+          width: 100%;
+          overflow: hidden;
+          height: 22px; }
+        .showlistmain .productwrapper .productlist li .goodsmessage .messagebox p {
+          text-align: left;
+          font-size: 8px;
+          color: #999; }
+        .showlistmain .productwrapper .productlist li .goodsmessage .messagebox .saleprice a {
+          color: #c21c22;
+          font-weight: bold;
+          text-align: left; }
+          .showlistmain .productwrapper .productlist li .goodsmessage .messagebox .saleprice a span {
+            font-size: 22px; }
+        .showlistmain .productwrapper .productlist li .goodsmessage .messagebox .saleprice a:first-child {
+          width: 136px;
+          height: 24px;
+          border-right: 1px dashed #ccc;
+          text-align: left;
+          line-height: 24px; }
+        .showlistmain .productwrapper .productlist li .goodsmessage .messagebox .saleprice a:last-child {
+          margin-left: 30px; }
+  .showlistmain .productwrapper .productlist li:nth-child(5n-1) .goodsmessage {
+    left: -302px; }
+    .showlistmain .productwrapper .productlist li:nth-child(5n-1) .goodsmessage .messageicon {
+      width: 11px;
+      height: 20px;
+      position: absolute;
+      top: 30px;
+      background: url(../img/indeximg/sprites.png) no-repeat 0 -960px;
+      left: 289px; }
+  .showlistmain .productwrapper .productlist li:nth-child(5n) .goodsmessage {
+    left: -302px; }
+    .showlistmain .productwrapper .productlist li:nth-child(5n) .goodsmessage .messageicon {
+      width: 11px;
+      height: 20px;
+      position: absolute;
+      top: 30px;
+      background: url(../img/indeximg/sprites.png) no-repeat 0 -960px;
+      left: 289px; }
+  .showlistmain .searchPage {
+    height: 25px;
+    line-height: 25px; }
+    .showlistmain .searchPage .pageleft span {
+      width: 57px;
+      height: 23px;
+      display: block;
+      padding-left: 14px;
+      line-height: 24px;
+      text-align: left;
+      border: 1px solid #efefef; }
+      .showlistmain .searchPage .pageleft span a {
+        width: 57px;
+        height: 23px;
+        display: block; }
+    .showlistmain .searchPage .pageleft .pre {
+      background: url(../img/indeximg/sprites.png) no-repeat 3px -1996px; }
+    .showlistmain .searchPage .pageleft .next {
+      background: url(../img/indeximg/sprites.png) no-repeat 53px -1953px; }
+    .showlistmain .searchPage .pageleft ul {
+      margin-right: 7px; }
+      .showlistmain .searchPage .pageleft ul li {
+        margin-left: 7px;
+        float: left;
+        color: #FFFFFF;
+        font-weight: bold;
+        width: 26px;
+        background: #ccc;
+        line-height: 24px;
+        height: 24px;
+        border: 1px solid #ededed;
+        text-align: center;
+        cursor: pointer; }
+      .showlistmain .searchPage .pageleft ul .active {
+        background: #b81c22; }
+    .showlistmain .searchPage .pageright span {
+      display: block;
+      margin-left: 10px; }
+      .showlistmain .searchPage .pageright span .intsearch {
+        width: 26px;
+        height: 24px;
+        border: 1px solid #ededed;
+        line-height: 24px;
+        text-align: center;
+        margin: 0px 4px; }
+    .showlistmain .searchPage .pageright div .confirmbtn {
+      width: 49px;
+      height: 25px;
+      border: 0;
+      margin-left: 10px;
+      background: url(../img/indeximg/sprites.png) no-repeat 0px -2044px;
+      cursor: pointer; }
+
+/*# sourceMappingURL=showlist.css.map */

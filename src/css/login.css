@@ -1,0 +1,194 @@
+/* ------头部----- */
+
+.header .head {
+    height: 70px;
+    border-bottom: 1px solid #7a7f89;
+}
+
+.header .head .logo {
+    margin-top: 10px;
+    
+}
+
+.header .head a {
+    display: block;
+    margin-top: 16px;
+    height: 46px;
+    line-height: 50px;
+}
+
+.main_login {
+    width: 926px;
+    height: 522px;
+    margin: 20px auto 0;
+    color: #979797;
+}
+
+.main_login h2 {
+    height: 42px;
+    line-height: 42px;
+}
+
+.login_form {
+    width: 400px;
+}
+
+.vancl_login {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.vancl_register {
+    font-size: 12px;
+}
+
+.main_login a {
+    color: #b42025;
+    font-size: 12px;
+}
+
+.login_part {
+    width: 398px;
+    /* height: 440px; */
+    border: 1px solid #d1d1d1;
+}
+
+/* ------切换登录方式----- */
+
+.login_tab {
+    height: 35px;
+}
+
+.login_tab span {
+    background: #f5f5f5;
+    display: inline-block;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 199px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #cbcbcb;
+    color: #656565;
+}
+
+.login_tab .active {
+    background: #b42025;
+    color: #fff;
+}
+
+.loginchange {
+    display: none;
+}
+
+.selected {
+    display: block;
+}
+
+.login_part form {
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 360px;
+}
+
+.login_part .username, .login_part .password, .phoneidentify {
+    width: 360px;
+    /* height: 44px; */
+    border: 1px solid #cbcbcb;
+    padding: 17px 10px;
+    box-sizing: border-box;
+}
+
+.phone {
+    width: 250px;
+    border: 1px solid #cbcbcb;
+    padding: 17px 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.getcode {
+    width: 98px;
+    border: 1px solid #cbcbcb;
+    text-align: center;
+    line-height: 49px;
+    float: right;
+    background: #f5f5f5;
+}
+
+.getcode a {
+    display: block;
+    font-weight: bold;
+    height: 49px;
+}
+
+.getcode a:hover {
+    text-decoration: underline;
+}
+
+.identify {
+    padding: 17px 10px;
+    width: 140px;
+    border: 1px solid #cbcbcb;
+    float: left;
+}
+
+.showcode {
+    width: 116px;
+    border: 1px solid #cbcbcb;
+    border-left: 0;
+    float: left;
+    height: 49px;
+    line-height: 49px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+}
+
+.tips {
+    width: 220px;
+    min-height: 16px;
+    line-height: 16px;
+    color: #A10000;
+    text-indent: 30px;
+    background: url(../img/indeximg/login_spritesbg.png) -351px -662px no-repeat;
+    background-color: #FFF6F7;
+    border: 1px solid #CC9998;
+    margin-left: 48px;
+    visibility: hidden;
+    /* visibility: visible */
+    /* display: none; */
+}
+
+.loginbtn {
+    width: 360px;
+    background: #b42025;
+    color: #fff;
+    font-size: 20px;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+.company {
+    height: 97px;
+    border-top: 1px dashed #cbcbcb;
+}
+
+.company h2 {
+    font-weight: bold;
+}
+
+.contact {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.footer .footertop {
+    border-top: 1px solid #999;
+}
+
+.footertop p {
+    color: #999999
+}

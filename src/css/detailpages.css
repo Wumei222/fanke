@@ -1,0 +1,375 @@
+.xunran {
+    overflow: hidden;
+    width: 100%;
+}
+
+.ProductTitleShow {
+    margin-top: 36px;
+    overflow: hidden;
+}
+
+.main {
+    height: 700px;
+}
+
+.location a {
+    display: inline-block;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.censhan {
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.ProductSubnav a {
+    color: #808080;
+    padding: 0 20px;
+}
+
+.ProductSubnav span:nth-child(2) a {
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+}
+
+#searchBtn {
+    width: 49px;
+    height: 29px;
+    border: none;
+    cursor: pointer;
+    background: url(../img/indeximg/vanclsprite.png) no-repeat -100px 0px;
+}
+
+.shoppingCart {
+    width: 105px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #c1383e;
+    background: url(../img/indeximg/vanclsprite.png) no-repeat -154px 0px;
+}
+
+.addcart1 {
+    width: 498px;
+    height: 365px;
+    border: 1px solid #b81b22;
+    position: absolute;
+    top: 448px;
+    background: #fff;
+    display: none;
+    z-index: 100;
+    cursor: pointer;
+    right: 100px;
+}
+
+.tip {
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    background: #b81b22;
+    font-size: 16px;
+    padding: 0 28px;
+}
+
+.tip .close {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.pushcert {
+    height: 90px;
+    margin: 10px 28px;
+    border-bottom: 1px dotted #727171;
+}
+
+.CarBox_bg {
+    width: 74px;
+    height: 74px;
+    padding-right: 18px;
+    background: url(../img/indeximg/vanclsprite.png) no-repeat -232px -119px;
+}
+
+.CarBox_NumPrice {
+    width: 158px;
+    border-left: 1px solid #b81c22;
+    height: 43px;
+    margin-top: 17px;
+}
+
+.CarBox_NumPrice p {
+    margin-left: 20px;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.CarBox_NumPrice p span {
+    color: #b81c22;
+}
+
+.CarBox_Btn {
+    height: 32px;
+    line-height: 32px;
+    margin-top: 18px
+}
+
+.CarBox_Btn .track {
+    background: #efefef;
+    color: #727171;
+}
+
+.goto {
+    background: #b81c22;
+    color: #fff;
+    width: 90px;
+}
+
+.product {
+    margin-left: 28px;
+}
+
+.ul1 li {
+    float: left;
+    text-align: center;
+    width: 70px;
+    margin-right: 20px;
+}
+
+.ul1 li span {
+    color: #a10000;
+}
+
+.ul1 li:last-child {
+    margin-left: 0px;
+}
+
+.ul1 li img {
+    width: 70px;
+    height: 70px;
+    display: block;
+    border: 1px solid #b4b4b4;
+}
+
+.comend h2 {
+    width: 445px;
+    height: 32px;
+    line-height: 32px;
+    color: #999999;
+}
+
+.CarBox_Btn a {
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.opera {
+    position: relative;
+}
+
+/* -----导航栏小图标----- */
+
+.nav ul li em {
+    display: block;
+    width: 25px;
+    height: 13px;
+    position: absolute;
+    left: 66px;
+    top: -5px;
+}
+
+.nav ul li .hot {
+    background: url(../img/indeximg/icon_hot.png) no-repeat;
+}
+
+.nav ul li .new {
+    background: url(../img/indeximg/icon_new.png) no-repeat;
+}
+
+/* ------------ */
+
+.detail {
+    height: 475px;
+    border-top: 1px solid #e5e6e6;
+    border-bottom: 1px solid #e5e6e6;
+}
+
+.detail ul {
+    position: relative;
+}
+
+.imglist li {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #b4b4b4;
+    margin-bottom: 11px;
+}
+
+.imglist li img {
+    width: 100%;
+    height: 100%;
+}
+
+.detail>div {
+    margin-top: 36px;
+    margin-right: 80px;
+}
+
+.detailright .color ul li {
+    float: left;
+    width: 97px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #B4B4B4;
+    line-height: 42px;
+    margin-right: 8px;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+}
+
+.detailright .size ul li {
+    padding: 0 9px;
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    color: #333333;
+    cursor: pointer;
+    float: left;
+    height: 24px;
+    line-height: 22px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.shopping span {
+    float: left;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background: #ccc;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shopping .subtract {
+    border-right: none;
+}
+
+.shopping .add {
+    border-left: none;
+}
+
+.shopping input {
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.shopping input:focus {
+    border: 1px solid skyblue;
+}
+
+.detailright .size ul li {
+    float: left;
+}
+
+.good {
+    color: #a10000;
+}
+
+.good span {
+    font-size: 18px;
+}
+
+.detailright>div {
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 166px;
+    height: 30px;
+    border: 1px solid #b71b21;
+    font-size: 14px;
+}
+
+.buy {
+    background: #f7abaf;
+    color: #a50309;
+}
+
+.addcart {
+    background: #b81c22;
+    color: #fff;
+}
+
+.detailleft {
+    width: 70px;
+    height: 100%;
+}
+
+.detailcenter {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #e5e6e6;
+    position: relative;
+}
+
+.detailcenter .minImg li {
+    position: absolute;
+    top: 0;
+}
+
+.minImg {
+    width: 400px;
+    height: 400px;
+}
+
+.maglify {
+    position: absolute;
+    width: 440px;
+    height: 400px;
+    border: 1px solid #000;
+    top: -430px;
+    left: 404px;
+    background: #fff;
+    display: none;
+    overflow: hidden;
+}
+
+.maglify img {
+    width: 800px;
+    height: 800px;
+}
+
+.maglify li {
+    position: absolute;
+}
+
+.detailcenter .mask {
+    opacity: 0.6;
+    background-color: #e6eaf3;
+    border: 1px solid White;
+    position: absolute;
+    width: 220px;
+    height: 200px;
+    top: 0;
+    display: none;
+    z-index: 10;
+}
+
+.detailright {
+    height: 100%;
+    width: 450px;
+    position: relative;
+}

@@ -1,0 +1,144 @@
+/* ------头部----- */
+
+.header .head {
+    height: 70px;
+    border-bottom: 1px solid #7a7f89;
+}
+
+.header .head .logo {
+    margin-top: 10px;
+}
+
+/* ---- */
+
+.main_login {
+    width: 926px;
+    height: 522px;
+    margin: 20px auto 40px;
+    color: #979797;
+}
+
+.checkbox {
+    width: 20px;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+input {
+    width: 412px;
+    border: 1px solid #cbcbcb;
+    padding: 16px 0px 16px 10px;
+    box-sizing: border-box;
+}
+
+.tips {
+    height: 20px;
+    position: relative;
+}
+
+.tips1 {
+    display: none;
+}
+
+.tips2 {
+    color: #a10000;
+    border: 1px #ffd5d5 solid;
+    padding: 3px 5px;
+    position: absolute;
+    left: 0px;
+    z-index: 20;
+    background: #f9f9f9;
+    top: 1px;
+    display: none;
+}
+
+.con {
+    width: 260px;
+    border: 1px solid #cbcbcb;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.confollow {
+    border: 1px solid #cbcbcb;
+    width: 138px;
+    height: 45px;
+    line-height: 43px;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.get_message {
+    background: #f5f5f5;
+}
+
+.get_message a:hover {
+    text-decoration: underline;
+}
+
+.main_login h2 {
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 2px solid #b81e20;
+}
+
+.vancl_newuser {
+    font-size: 22px;
+}
+
+.vancl_register {
+    font-size: 12px;
+}
+
+.main_login a {
+    color: #b42025;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.register_part {
+    width: 420px;
+    margin-top: 33px;
+}
+
+.strength {
+    line-height: 19px;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.strength span {
+    display: inline-block;
+    height: 19px;
+    color: #666;
+    vertical-align: middle;
+}
+
+.strength_color {
+    width: 140px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.registerbtn {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    background: #9a9a9a;
+    cursor: pointer;
+}
+
+.registerbtn:hover {
+    text-decoration: underline;
+}
+
+.footer .footertop {
+    border: 0;
+}
+
+.footertop p {
+    color: #999999;
+}

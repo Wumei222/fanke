@@ -1,0 +1,409 @@
+body, #fanke {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+}
+
+.container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* -------头部---------- */
+
+/* ----------头部下上---------- */
+
+.header .headerTop {
+    height: 32px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+    color: #808080;
+    line-height: 32px;
+}
+
+.user a {
+    padding-right: 14px;
+}
+
+.header .headerTop a {
+    color: #808080;
+}
+
+.myorder a:hover, .notice a:hover, .nav ul li a:hover {
+    color: #a10000;
+}
+
+.header .headerTop .notice {
+    width: 55px;
+    padding-left: 26px;
+    height: 100%;
+    background: url(../img/indeximg/header_noticeicon.png) no-repeat left center;
+}
+
+.header .headerTop .headerTopRight {
+    width: 126px;
+    height: 32px;
+    position: relative;
+}
+
+.header .headerTop .headerTopLeft {
+    width: 320px;
+    height: 32px;
+}
+
+#wechat:hover .wexin {
+    display: block;
+}
+
+.wexin {
+    width: 148px;
+    height: 168px;
+    background: #fff;
+    display: none;
+    position: absolute;
+    right: 0;
+    border: 1px solid #ddd;
+    z-index: 100;
+}
+
+/* ----------头部中---------- */
+
+.header .headerMiddle {
+    height: 62px;
+    margin-top: 20px;
+}
+
+.vanclSearch {
+    width: 438px;
+    height: 60px;
+    padding-top: 8px;
+}
+
+#searchTxt {
+    width: 249px;
+    height: 27px;
+    padding: 0px 5px;
+    line-height: 27px;
+    border: 1px solid #c9caca;
+}
+
+#searchBtn {
+    width: 49px;
+    height: 29px;
+    border: none;
+    cursor: pointer;
+    background: url(../img/indeximg/vanclsprite.png) no-repeat -100px 0px;
+}
+
+.shoppingCart {
+    width: 105px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #c1383e;
+    background: url(../img/indeximg/vanclsprite.png) no-repeat -154px 0px;
+}
+
+.shoppingCart a {
+    padding-left: 29px;
+    padding-top: 6px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.shoppingCart {
+    width: 105px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #c1383e;
+    background: url(../img/indeximg/vanclsprite.png) no-repeat -154px 0px;
+    position: relative;
+}
+
+.certbottom {
+    height: 40px;
+    border-top: 1px solid #ececec;
+}
+
+.shoppingCart a {
+    padding-left: 29px;
+    padding-top: 6px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.certshow {
+    position: absolute;
+    width: 328px;
+    height: 296px;
+    border: 1px solid #b81c22;
+    z-index: 100;
+    left: -224px;
+    background: #fff;
+    color: #727171;
+    display: none;
+}
+
+.certbox {
+    width: 286px;
+    height: 268px;
+    margin: 20px;
+}
+
+.certbox p {
+    border-bottom: 1px solid #ececec;
+}
+
+.certbox ul {
+    height: 208px;
+    overflow: hidden;
+}
+
+.certbox ul li {
+    height: 50px;
+}
+
+.certbox ul li img {
+    width: 36px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.goodsin {
+    width: 200px;
+    margin-left: 10px;
+}
+
+.certbox ul li a {
+    color: #727171;
+    padding-left: 0;
+}
+
+.certbox ul li .des a {
+    display: inline-block;
+    width: 100%;
+    height: 14px;
+    line-height: 14px;
+    overflow: hidden;
+}
+
+.certbox ul li .colors, .certbox ul li .goodsin span {
+    color: #a10000;
+}
+
+.certbox ul li .del {
+    line-height: 50px;
+}
+
+.searchTab {
+    height: 29px;
+}
+
+/* ----------头部下----------- */
+
+.headerBottom {
+    height: 46px;
+}
+
+/* ------导航------- */
+
+.nav ul li {
+    float: left;
+    width: 99px;
+    margin-top: 20px;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.nav>ul>li>a::after {
+    content: '|';
+    height: 12px;
+    color: #888888;
+    float: right;
+}
+
+.nav ul li a {
+    display: block;
+    font-size: 16px;
+    color: #727171;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.menu {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background: #fff;
+    width: 99px;
+    position: absolute;
+    z-index: 100;
+    display: none;
+    overflow: hidden;
+}
+
+/* -------主体内容------ */
+
+.banner {
+    width: 100%;
+    height: 535px;
+    margin: 30px auto 0;
+}
+
+/* -----导航---------- */
+
+/* -------logo----- */
+
+.logo {
+    width: 185px;
+    height: 46px;
+    background: url(../img/indeximg/logo.png) no-repeat left center;
+}
+
+/* -----底部---------- */
+
+.about {
+    width: 1118px;
+    height: 282px;
+    margin: 80px auto;
+    padding: 0px 40px 0px;
+    border: 1px solid #e0e0e1;
+    font-family: "Microsoft YaHei";
+    margin-bottom: 25px;
+}
+
+.about .abouthelp {
+    margin: 33px 0px 23px;
+    height: 138px;
+}
+
+.about .abouthelp li {
+    float: left;
+    width: 370px;
+    height: 138px;
+    border-right: 1px solid #e0e0e1;
+    margin-right: 0px;
+    text-align: center;
+}
+
+.about .abouthelp li img {
+    margin-bottom: 20px;
+}
+
+.about .abouthelp li:last-child img {
+    width: 104px;
+    height: 104px;
+}
+
+.about .abouthelp li:last-child {
+    border-right: 0;
+}
+
+.about .abouthelp li p {
+    /* margin: 15px auto 30px; */
+    height: 26px;
+    line-height: 26px;
+}
+
+.onlinetime {
+    margin: 0px auto;
+    width: 156px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    background: #b81c22;
+    color: #ffffff;
+}
+
+.otherhelp li {
+    float: left;
+    height: 26px;
+    margin-top: 15px;
+    border-right: 1px solid #dadadb;
+    line-height: 26px;
+}
+
+.otherhelp li:last-child {
+    border: 0px;
+}
+
+.otherhelp li a {
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 65px;
+    color: #323232;
+}
+
+.otherhelp {
+    height: 56px;
+    background: #f8f8f8;
+    width: 100%;
+}
+
+/* ------底部---- */
+
+.footer {
+    font-size: 10px;
+    color: #3e3a39;
+    height: 136px;
+}
+
+.footertop {
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+    border-top: 1px solid #3e3a39;
+    margin-bottom: 20px;
+}
+
+.footertop p:nth-child(1) {
+    margin-top: 10px;
+}
+
+.footerbottom {
+    width: 750px;
+    margin: auto;
+    height: 48px;
+}
+
+.footerbottom span {
+    margin: 0 10px;
+}
+
+.footerbottom span a {
+    display: inline-block;
+    height: 45px;
+}
+
+.footerbottom span:nth-child(1) a {
+    width: 113px;
+    background: url(../img/indeximg/spritesbgtop.png) no-repeat 0 -581px;
+}
+
+.footerbottom span:nth-child(2) a {
+    width: 156px;
+    background: url(../img/indeximg/spritesbgtop.png) no-repeat 0 -629px;
+}
+
+.footerbottom span:nth-child(3) a {
+    width: 96px;
+    background: url(../img/indeximg/spritesbgtop.png) no-repeat 0 -675px;
+}
+
+.footerbottom span:nth-child(4) a {
+    width: 101px;
+    background: url(../img/indeximg/spritesbgtop.png) no-repeat -97px -675px;
+}
+
+.footerbottom span:nth-child(5) a {
+    width: 42px;
+    background: url(../img/indeximg/spritesbgtop.png) no-repeat -202px -675px;
+}
+
+.footerbottom span:nth-child(6) a {
+    width: 120px;
+    background: url(../img/indeximg/footer.png) no-repeat left center;
+    background-size: contain;
+}

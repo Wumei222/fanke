@@ -1,0 +1,689 @@
+#fanke {
+    /* position: relative; */
+    height: 100%;
+}
+
+/* -------头部---------- */
+
+#fanke .header {
+    height: 167px;
+    background: #fff;
+}
+
+/* ----------头部下上---------- */
+
+.header .headerTop {
+    height: 32px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+    color: #808080;
+    line-height: 32px;
+}
+
+#searchBtn {
+    width: 49px;
+    height: 29px;
+    border: none;
+    cursor: pointer;
+    background: url(../img/indeximg/vanclsprite.png) no-repeat -100px 0px;
+}
+
+.shoppingCart {
+    width: 105px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #c1383e;
+    background: url(../img/indeximg/vanclsprite.png) no-repeat -154px 0px;
+}
+
+/* -----导航栏小图标----- */
+
+.nav ul li em {
+    display: block;
+    width: 25px;
+    height: 13px;
+    position: absolute;
+    left: 66px;
+    top: -5px;
+}
+
+.nav ul li .hot {
+    background: url(../img/indeximg/icon_hot.png) no-repeat;
+}
+
+.nav ul li .new {
+    background: url(../img/indeximg/icon_new.png) no-repeat;
+}
+
+.user a {
+    padding-right: 14px;
+}
+
+.header .headerTop a {
+    color: #808080;
+}
+
+.myorder a:hover, .notice a:hover, .nav ul li a:hover {
+    color: #a10000;
+}
+
+.header .headerTop .notice {
+    width: 55px;
+    padding-left: 26px;
+    height: 100%;
+    background: url(../img/indeximg/header_noticeicon.png) no-repeat left center;
+}
+
+.header .headerTop .headerTopRight {
+    width: 126px;
+    height: 32px;
+    position: relative;
+}
+
+.header .headerTop .headerTopLeft {
+    width: 320px;
+    height: 32px;
+}
+
+#wechat:hover .wexin {
+    display: block;
+}
+
+.wexin {
+    width: 148px;
+    height: 168px;
+    background: #fff;
+    display: none;
+    position: absolute;
+    right: 0;
+    border: 1px solid #ddd;
+    z-index: 100;
+}
+
+/* ----------头部中---------- */
+
+.header .headerMiddle {
+    height: 62px;
+    margin-top: 20px;
+}
+
+.vanclSearch {
+    width: 438px;
+    height: 60px;
+    padding-top: 8px;
+}
+
+#searchTxt {
+    width: 249px;
+    height: 27px;
+    padding: 0px 5px;
+    line-height: 27px;
+    border: 1px solid #c9caca;
+}
+
+#searchBtn {
+    width: 49px;
+    height: 29px;
+    border: none;
+    cursor: pointer;
+    background: url(../img/indeximg/vanclsprite.png) no-repeat -100px 0px;
+}
+
+.certbox .searchTab {
+    height: 29px;
+}
+
+/* ----------头部下----------- */
+
+.headerBottom {
+    height: 46px;
+}
+
+/* ------导航------- */
+
+.nav ul li {
+    float: left;
+    width: 99px;
+    margin-top: 20px;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.nav>ul>li>a::after {
+    content: '|';
+    height: 12px;
+    color: #888888;
+    float: right;
+}
+
+.nav ul li a {
+    display: block;
+    font-size: 16px;
+    color: #727171;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.menu {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background: #fff;
+    width: 99px;
+    position: absolute;
+    z-index: 100;
+    display: none;
+    overflow: hidden;
+}
+
+/* -----导航栏小图标----- */
+
+.nav ul li em {
+    display: block;
+    width: 25px;
+    height: 13px;
+    position: absolute;
+    left: 66px;
+    top: -5px;
+}
+
+.nav ul li .hot {
+    background: url(../img/indeximg/icon_hot.png) no-repeat;
+}
+
+.nav ul li .new {
+    background: url(../img/indeximg/icon_new.png) no-repeat;
+}
+
+/* -------主体内容------ */
+
+.banner {
+    width: 100%;
+    height: 535px;
+    margin: 30px auto 0;
+}
+
+#zz_carousel {
+    width: 100%;
+    height: 535px;
+    overflow: hidden;
+    position: relative;
+}
+
+#zz_carousel .paging {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+}
+
+/* -------焦点高亮---------- */
+
+#zz_carousel .paging span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #dddddd;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#zz_carousel .paging span.active {
+    background: #a10000;
+}
+
+#zz_carousel .image_reel {
+    height: 535px;
+    width: 100%;
+}
+
+#zz_carousel .image_reel li {
+    position: absolute;
+    height: 100%;
+}
+
+#zz_carousel .image_reel img {
+    width: 100%;
+    height: 535px;
+}
+
+/* ------轮播图左右按钮切换 -------*/
+
+#zz_carousel .arrowright {
+    background: url(../img/indeximg/focus_lr.png) no-repeat -60px 0px;
+    right: 10px;
+}
+
+#zz_carousel .arrowright:hover {
+    background: url(../img/indeximg/focus_lr.png) no-repeat -60px -60px;
+}
+
+#zz_carousel .arrowleft {
+    left: 10px;
+    background: url(../img/indeximg/focus_lr.png) no-repeat;
+}
+
+#zz_carousel .arrowleft:hover {
+    background: url(../img/indeximg/focus_lr.png) no-repeat 0 -60px;
+}
+
+#zz_carousel .arrow {
+    display: block;
+    position: absolute;
+    margin-top: -27px;
+    top: 50%;
+    width: 18px;
+    height: 54px;
+    z-index: 10;
+}
+
+/* ------广告栏----- */
+
+.getmoney {
+    height: 69px;
+    margin: 40px auto 20px;
+}
+
+.gettime .container {
+    height: 64px;
+    background: url(../img/indeximg/banner_limitime.jpg) no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.timecount {
+    width: 400px;
+    height: 64px;
+    position: absolute;
+    right: 0;
+}
+
+.timecount span {
+    display: block;
+    width: 400px;
+    line-height: 64px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.timecount em {
+    color: #a10000;
+    margin-left: 8px;
+    float: right;
+    padding-right: 30px;
+}
+
+.more {
+    margin-top: 10px;
+}
+
+/* --- */
+
+.show_t {
+    width: 100%;
+    color: #474747;
+    margin-top: 10px;
+    height: 327px;
+}
+
+.show_t ul li {
+    float: left;
+    width: 232px;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.show_t ul li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.show_t ul li img {
+    width: 232px;
+}
+
+.show_t ul li:last-child {
+    margin-right: 0px;
+}
+
+.goods_descript {
+    font-size: 16px;
+    margin-top: 10px;
+    height: 45px;
+    font-weight: normal;
+}
+
+.goods_descript a {
+    color: #474747;
+}
+
+.afterdeposit {
+    font-size: 16px;
+}
+
+.price .price1 {
+    height: 20px;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #d3d3d3;
+}
+
+.price span {
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.current_price {
+    color: #bb2b34;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.afterdeposit em {
+    color: #bb2b34;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/* ----------- */
+
+.depreciate {
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.depreciate ul li {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.depreciate .listshirt li:nth-child(4n) {
+    margin-right: 0;
+}
+
+/* ----- */
+
+.main h2 {
+    text-align: center;
+    line-height: 50px;
+    margin: 30px 0px;
+    font-family: "Microsoft YaHei";
+    color: #9a9a9a;
+    font-size: 18px;
+}
+
+.pic_list {
+    height: 507px;
+    margin-bottom: 20px;
+}
+
+.pic_list img {
+    width: 100%;
+    height: 100%;
+}
+
+.pic_list li {
+    float: left;
+}
+
+.pic_list .pic_one {
+    width: 590px;
+    margin-right: 17px;
+    border: 1px solid #e8e7ec;
+}
+
+h3 {
+    height: 28px;
+    margin: 20px 10px;
+    line-height: 28px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+h3 span {
+    float: right;
+    color: #a10000;
+    font-family: Arial;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.pic_list .pic_two {
+    width: 290px;
+    margin-right: 17px;
+}
+
+.pic_twobottom {
+    border: 1px solid #e8e7ec;
+    margin-top: 10px;
+}
+
+.pic_twotop {
+    border: 1px solid #e8e7ec;
+}
+
+.pic_three {
+    width: 284px;
+    border: 1px solid #e8e7ec;
+    box-sizing: border-box;
+}
+
+.pic_three img {
+    width: 100%;
+    height: 440px;
+}
+
+/* -- */
+
+.pic_pants ul li {
+    float: left;
+    margin-right: 17px;
+}
+
+.pic_pants ul li:last-child {
+    margin-right: 0px;
+}
+
+/* ----- */
+
+.quality_goods ul {
+    height: 560px;
+}
+
+.quality_goods li {
+    float: left;
+    margin: 0px 22px 28px 0px;
+}
+
+.quality_goods li:nth-child(3n) {
+    margin-right: 0px;
+}
+
+/* ------ */
+
+.about {
+    width: 1118px;
+    height: 282px;
+    margin: 0px auto;
+    padding: 0px 40px 0px;
+    border: 1px solid #e0e0e1;
+    font-family: "Microsoft YaHei";
+    margin-bottom: 25px;
+}
+
+.about .abouthelp {
+    margin: 33px 0px 23px;
+    height: 138px;
+}
+
+.about .abouthelp li {
+    float: left;
+    width: 370px;
+    height: 138px;
+    border-right: 1px solid #e0e0e1;
+    margin-right: 0px;
+    text-align: center;
+}
+
+.about .abouthelp li img {
+    margin-bottom: 20px;
+}
+
+.about .abouthelp li:last-child img {
+    width: 104px;
+    height: 104px;
+}
+
+.about .abouthelp li p {
+    /* margin: 15px auto 30px; */
+    height: 26px;
+    line-height: 26px;
+}
+
+.onlinetime {
+    margin: 0px auto;
+    width: 156px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    background: #b81c22;
+    color: #ffffff;
+}
+
+.otherhelp li {
+    float: left;
+    height: 26px;
+    margin-top: 15px;
+    border-right: 1px solid #dadadb;
+    line-height: 26px;
+}
+
+.otherhelp li:last-child {
+    border: 0px;
+}
+
+.otherhelp li a {
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 65px;
+    color: #323232;
+}
+
+.otherhelp {
+    height: 56px;
+    background: #f8f8f8;
+    width: 100%;
+}
+
+/* ----- 侧边-----------*/
+
+.BayWindow {
+    width: 73px;
+    box-sizing: border-box;
+    height: 205px;
+    border: 1px solid #b81b22;
+    margin-bottom: 30px;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    z-index: 10;
+    background: #fff;
+}
+
+.BayWindow ul li {
+    cursor: pointer;
+    text-align: center;
+}
+
+.BayWindow ul li a {
+    color: #808080;
+}
+
+.BayWindow ul li img {
+    margin-top: 14px;
+}
+
+.BayWindow ul li p {
+    line-height: 30px;
+}
+
+.BayWindow ul .downApp {
+    height: 76px;
+}
+
+.BayWindow ul .online {
+    height: 71px;
+}
+
+.BayWindow ul .totop {
+    border: none;
+    height: 55px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background: #b81b22;
+    overflow: hidden;
+}
+
+.BayWindow ul .totop span {
+    padding-top: 12px;
+    display: block;
+}
+
+.BayWindow ul .totop a {
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.BayWindow ul li {
+    width: 73px;
+    border-bottom: 1px solid #b81b22;
+}
+
+/* ---遮罩---- */
+
+.sreenmask {
+    background: rgba(0, 0, 0, 0.7);
+    /* opacity: 0.7; */
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}
+
+.sreenAd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 980px;
+    height: 600px;
+    z-index: 1000;
+    margin-left: -490px;
+    margin-top: -300px;
+}
+
+.sreenAd img {
+    width: 100%;
+    height: 100%;
+}
+
+.close {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    background: url(../img/indeximg/close.png) no-repeat left top;
+    width: 29px;
+    height: 29px;
+    cursor: pointer;
+    z-index: 1000;
+}
